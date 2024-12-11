@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Carrinho from "./pages/Carrinho";
 import Home from "./pages/Home";
 import PaginaErro from "./pages/PaginaErro";
 
