@@ -5,9 +5,9 @@ import { useLocation } from "react-router-dom";
 import { useCarrinhoContext } from "../../hooks/useCarrinhoContext";
 // import { CarrinhoContext } from "@/context/CarrinhoContext";
 
-const ListaProdutosCarrinho = ({ carrinho }) => {
+const ListaProdutosCarrinho = () => {
   const location = useLocation();
-  const { removerProduto } = useCarrinhoContext();
+  const { removerProduto, carrinho } = useCarrinhoContext();
   return (
     <ul className="list-unstyled">
       {carrinho.length === 0 ? (
