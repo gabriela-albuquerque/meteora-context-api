@@ -16,8 +16,8 @@ const Home = () => {
       <CarrinhoSuspenso />
       <main>
         <Carrossel />
-        <Categorias />
         <Produtos />
+        <Categorias />
         <Facilidades />
         <Novidades />
       </main>
