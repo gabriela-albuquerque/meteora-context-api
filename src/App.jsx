@@ -5,6 +5,7 @@ import PaginaErro from "./pages/PaginaErro";
 
 import "./App.css";
 import { CarrinhoProvider } from "./context/CarrinhoContext";
+import BotaoVoltarAoTopo from "./components/BotaoVoltarAoTopo";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/carrinho" element={<Carrinho />} />
           <Route path="*" element={<PaginaErro />} />
         </Routes>
+        <BotaoVoltarAoTopo />
       </CarrinhoProvider>
     </BrowserRouter>
   );
