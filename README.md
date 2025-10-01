@@ -1,30 +1,35 @@
-# Meteora - E-commerce de Moda
+# Meteora - Estudo de Caso de E-commerce com React Context API
 
-O Meteora é um projeto de e-commerce em fase de desenvolvimento inicial.
+O Meteora é um projeto de estudo focado na implementação de um carrinho de compras funcional em uma aplicação React, utilizando a Context API para o gerenciamento de estado.
 
 ![GIF da aplicação em execução](meteora-app.gif)
 
-## 🔨 Funcionalidades do projeto
+## 🎯 Objetivo do Projeto
 
-Neste estágio inicial de desenvolvimento, o Meteora possui as seguintes funcionalidades:
+O objetivo principal deste projeto é demonstrar o uso da `Context API` e do hook `useReducer` para gerenciar o estado global de um carrinho de compras em um e-commerce. As funcionalidades implementadas são centradas nesta experiência.
 
-- Adicionar itens ao carrinho
-- Remover/Reduzir itens do carrinho
-- Visualizar a página do carrinho
-- Deletar itens do carrinho
+## 🔨 Funcionalidades Implementadas
 
-## ✔️ Técnicas e tecnologias utilizadas
+- Adicionar produtos ao carrinho a partir da vitrine.
+- Aumentar e diminuir a quantidade de cada item no carrinho.
+- Remover itens do carrinho.
+- Visualizar o carrinho de compras em uma página dedicada.
+- Visualizar um resumo da compra com o valor total.
 
-O projeto Meteora utiliza as seguintes tecnologias e bibliotecas:
+## 🚧 Fora do Escopo (Não implementado)
 
-- `React` - Framework JavaScript
-- `Vite` - Build tool para desenvolvimento rápido
-- `JavaScript` - Linguagem de programação principal
-- `Context API` - Para gerenciamento de estado
-- `useReducer` - Para controle de estado
-- `useMemo` - Para otimização de desempenho
-- `Bootstrap` - Framework de design e componentes
+Para manter o foco no estudo da Context API, várias funcionalidades de um e-commerce completo **não foram implementadas intencionalmente**. Isso inclui:
 
-## 📚 Mais informações do projeto
+- **Navegação:** As páginas "Lojas", "Novidades" e "Promoções" não estão funcionais.
+- **Busca:** A funcionalidade de busca de produtos não foi implementada.
+- **Newsletter:** O formulário de cadastro de e-mail não armazena informações.
+- **Finalização de Compra:** Não há um fluxo de checkout ou integração com pagamentos.
 
-O Meteora é um e-commerce fictício de moda em desenvolvimento. Este projeto visa aprimorar as habilidades em React, e utilizar a Context API como uma solução para gerenciamento de estados globais de uma aplicação React.
+## ✔️ Tecnologias e Técnicas Utilizadas
+
+- `React`
+- `Vite`
+- `JavaScript`
+- `Context API` para gerenciamento de estado global.
+- `useReducer` para lógica de estado complexa do carrinho.
+- `Bootstrap` para estilização e componentes de UI.
